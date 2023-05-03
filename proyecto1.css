@@ -1,47 +1,175 @@
-*{
-  margin:0%;
+ *{
   
+  margin: 0;
+  font-family: 'Lexend', sans-serif;
 }
 
 
 body{
+  
   background-color: #efefef;
   
 
 }
 
-#hearder{
+header{
 
-  font-family: 'Lexend', sans-serif; 
-  background-color: #253e41;
-  margin: 0%;
-  
-}
-
-
-#img-hearder{
- width: 60px;
-}
-
-.cabecera{
-  display:flex;
-  flex-wrap: nowrap;
-  flex-direction:row;
+  display: flex;
+  height: 50px;
+  background-color: rgba(230, 34, 8, 0.904);
+  align-items: center;
   justify-content: space-between;
-  padding: 0%;
-  margin: 0;
-  width: 70px;
+  padding: 10px;
+
  
+
+}
+
+.prisma{
   
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+
+}
+
+.prisma img {
+  
+  height: 50px;
+  
+
+}
+
+.prisma h2{
+
+  height: 30px ;
+}
+
+nav a{
+ 
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  padding-right: 30px;
+  
+}
+
+nav a:hover{
+
+  color: aliceblue;
+}
+
+/* jumbotron*/
+
+
+
+main{
+  
+  display: flex;
+  margin-top: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
+  
+}
+
+#main2{
+  width: 500px;
+  height: 400px;
+  padding-left: 15px;
+
+}
+
+#main1{
+  
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
 }
 
 
 
 
 
+main h3{
+
+  font-size: 70px;
+  background: linear-gradient(rgb(45, 41, 228),rgb(236, 57, 57),rgb(241, 238, 61));
+ -webkit-background-clip: text;
+  color: transparent;  
 
   
 
+}
+
+main p{
+ font-weight: 600;
+ padding-top: 30px;
+ padding-bottom: 30px;
+
+}
+
+
+
+/*blog*/
+
+
+#titulo-blog{
+ text-align: center;
+ margin-top: 200px;
+ font-size: 30px;
+}
+
+.img1{
+  height: 300px;
+  width: 300px;
+  
+}
+ 
+article{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px;
+  
+  
   
 }
 
+#sub1{
+  background-color:rgba(44, 41, 228, 0.342) ;
+  
+}
+
+#sub2{
+  background-color: rgba(236, 57, 57, 0.336) ;
+}
+
+#sub3{
+  background-color:rgba(241, 238, 61, 0.479) ;
+
+}
+
+.blog-1{
+  margin-left: 100px;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: start;
+  
+}
+
+article h1{
+  margin-top: 20px;
+}
+
+article p{
+  margin-top: 10px;
+  
+}
+
+article:hover{
+
+   box-shadow: 10px;
+}
