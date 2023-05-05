@@ -149,15 +149,20 @@ article{
 
 #sub3{
   background-color:rgba(241, 238, 61, 0.479) ;
-
+  
 }
 
 .blog-1{
+  transition:  box-shadow 0.3s ease;
   margin-left: 100px;
   padding: 10px;
   border-radius: 15px;
   text-align: start;
-  
+  cursor: pointer;
+}
+
+.blog-1:hover{
+  box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3) ;
 }
 
 article h1{
@@ -169,7 +174,63 @@ article p{
   
 }
 
-article:hover{
+/*adicionales*/
 
-   box-shadow: 10px;
+aside img{
+
+  height: 200px;
+  width: 200px;
+  
 }
+
+aside{
+  
+  background-color: rgba(181, 227, 250, 0.171);
+  display: flex;
+  justify-content: space-evenly;
+}
+ 
+#adi-1{
+  position:relative;
+  left: 50px;
+  top: 30px;
+}
+
+#adi-2{
+  position: relative;
+  right: 50px;
+  bottom: 30px;
+}
+
+.adicional-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+aside p{
+ font-size: 20px;
+}
+
+aside h2{
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+
+/*footer*/
+
+footer img{
+
+  width: 20px;
+  height: 20px;
+}
+
+footer{
+
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
