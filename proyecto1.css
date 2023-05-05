@@ -230,7 +230,39 @@ footer img{
 footer{
 
   margin-top: 50px;
+  margin-bottom: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: start;
+}
+
+.lista{
+
+  margin-left: 60px;
+  list-style: none;
+
+}
+ 
+.titulo-footer{
+  
+  font-weight: 800;
+
+ }
+
+.seg-footer{
+
+  margin-top: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.seg-footer:hover{
+
+ color: rgb(27, 27, 155);
+}
+
+.img-footer{
+
+  margin-left: 10px;
+  cursor: pointer;
 }
 
