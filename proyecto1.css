@@ -16,7 +16,7 @@ header{
 
   display: flex;
   height: 50px;
-  background-color: rgba(230, 34, 8, 0.904);
+  background-color: rgba(228, 26, 12, 0.788);
   align-items: center;
   justify-content: space-between;
   padding: 10px;
@@ -56,7 +56,7 @@ nav a{
 
 nav a:hover{
 
-  color: aliceblue;
+  color:  aliceblue;
 }
 
 /* jumbotron*/
@@ -96,7 +96,7 @@ main{
 main h3{
 
   font-size: 70px;
-  background: linear-gradient(rgb(45, 41, 228),rgb(236, 57, 57),rgb(241, 238, 61));
+  background: linear-gradient(rgb(56, 52, 241),rgba(226, 57, 27, 0.849),rgba(228, 231, 30, 0.795));
  -webkit-background-clip: text;
   color: transparent;  
 
@@ -111,8 +111,22 @@ main p{
 
 }
 
+.sub-1-m{
+  display: flex;
+}
 
+#correo{
+ padding: 8px;
+}
 
+#button{
+
+  background-color: rgba(233, 56, 12, 0.329);
+  cursor: pointer;
+  border-radius: 5px;
+  
+  
+}
 /*blog*/
 
 
@@ -218,6 +232,12 @@ aside h2{
   margin-bottom: 15px;
 }
 
+.boton{
+  background-color: rgba(121, 248, 248, 0.459);
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
 /*footer*/
 
@@ -253,6 +273,7 @@ footer{
   margin-top: 15px;
   margin-bottom: 15px;
   cursor: pointer;
+  
 }
 
 .seg-footer:hover{
