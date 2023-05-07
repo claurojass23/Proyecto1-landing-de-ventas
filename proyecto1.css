@@ -69,9 +69,7 @@ main{
 
 main h3{
  font-size: 70px;
- background: linear-gradient(rgb(56, 52, 241),rgba(226, 57, 27, 0.849),rgba(228, 231, 30, 0.795));
- -webkit-background-clip: text;
-  color: transparent;  
+ color: rgba(235, 57, 57, 0.808);  
 }
 
 main p{
