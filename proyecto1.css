@@ -1,37 +1,31 @@
  *{
-  
-  margin: 0;
+    margin: 0;
   font-family: 'Lexend', sans-serif;
 }
 
 
 body{
-  
-  background-color: #efefef;
+    background-color: #efefef;
 }
 
 header{
-
   display: flex;
   height: 50px;
+  width: 100%;
   background-color: rgba(228, 26, 12, 0.788);
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-
 }
 
 .prisma{
-  
-  display: flex;
+    display: flex;
   align-items: center;
   padding-left: 20px;
-
 }
 
 .prisma img {
-  
-  height: 50px;
+    height: 50px;
 }
 
 .prisma h2{
@@ -128,31 +122,36 @@ main p{
 .img1{
   height: 300px;
   width: 300px;
-  
 }
  
+
+
 article{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin: 60px;
 }
 
+
 #sub1{
   background-color:rgba(44, 41, 228, 0.342) ;
+  width: 305px;
 }
 
 #sub2{
   background-color: rgba(236, 57, 57, 0.336) ;
+  width: 305px;
 }
 
 #sub3{
   background-color:rgba(241, 238, 61, 0.479) ;
+  width: 305px;
 }
 
-.blog-1{
+.container .blog-1{
   transition:  box-shadow 0.3s ease;
-  margin-left: 100px;
+  margin: 10px;
   padding: 10px;
   border-radius: 15px;
   text-align: start;
@@ -267,7 +266,63 @@ footer{
   cursor: pointer;
 }
 
+@media only screen and (min-width: 280px) and (max-width: 600px) {
+  
+  header{
+     height: 130px;
+  }
+  .prisma h2{
+    font-size: 0px ;
+  }  
 
+  header.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  main{
 
+    display: flex;
+    flex-direction: column;
+    
+  
+  }
+   
+  .sub-1-m{
+    padding-bottom: 15px;
+  }
 
+  #main2{
+    
+    height: 300px;
+  }
+
+  article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 25px;
+  }
+    
+  aside{
+
+    width: 450px;
+  }
+    
+  aside img{
+    width: 100px;
+    height: 100px;
+  }
+  
+  .adicional-2{
+    width: 100px;
+  }
+  
+  footer{
+    display: flex;
+    flex-direction: column;
+  }
+}
 
